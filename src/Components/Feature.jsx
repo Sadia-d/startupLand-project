@@ -1,4 +1,6 @@
 import React from 'react';
+import img from '../assets/image/img.png'
+import emoji from '../assets/icon/emoji.png'
 
 const Feature = () => {
     return (
@@ -7,12 +9,12 @@ const Feature = () => {
             <div className="hero bg-base-200 ">
                 <div className="hero-content flex-col lg:flex-row">
                     <img 
-                        src="image/img.png"
-                        className=" h-[530px] w-[600px] rounded-lg shadow-2xl"
+                        src={img}
+                        className=" lg:h-[550px] lg:w-[500px]  rounded-lg shadow-2xl"
                     />
-                <div className='text-[#0F2137] w-[500px] -mt-14'>
+                <div className='text-[#0F2137] lg:w-[500px] lg:-mt-14'>
                       
-                         <h1 className="text-4xl font-bold">Meet our premium features that will make you wow<img src="/icon/emoji.png" alt="" srcset="" /></h1>
+                         <h1 className="text-4xl font-bold">Meet our premium features that will make you wow<img src={emoji} alt="" srcset="" /></h1>
                       
                      
                         <p className="py-6">

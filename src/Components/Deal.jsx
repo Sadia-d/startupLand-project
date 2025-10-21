@@ -1,4 +1,5 @@
 import React from 'react';
+import icon from '../assets/image/Combined shape 16073.png'
 
 const Deal = () => {
     return (
@@ -14,7 +15,7 @@ const Deal = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center mt-16'>
+            <div className='flex lg:flex-row flex-col px-3 justify-center mt-16'>
 
                
                 <div className="card w-96 mt-5  bg-base-100 shadow-sm ">
@@ -25,15 +26,15 @@ const Deal = () => {
                         <p className='border border-gray-300'></p>
                         <ul className="mt-6 flex flex-col gap-2 text-xs">
                             <li className='flex gap-2 items-center py-3'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Ultimate access to all course, exercises <br /> and assessments</span>
                             </li>
                             <li className='flex gap-2 items-center'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Ultimate access to all course, exercises <br /> and assessments</span>
                             </li>
                              <li className='flex gap-2 items-center py-3'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Total assessment corrections with free <br /> download access system</span>
                             </li>                          
                             <li className='flex gap-2 items-center py-3'>
@@ -56,19 +57,19 @@ const Deal = () => {
                         <p className='border border-gray-300'></p>
                         <ul className="mt-6 flex flex-col gap-2 text-xs">
                             <li className='flex gap-2 items-center py-3'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Ultimate access to all course, exercises <br /> and assessments</span>
                             </li>
                             <li className='flex gap-2 items-center'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Ultimate access to all course, exercises <br /> and assessments</span>
                             </li>
                              <li className='flex gap-2 items-center py-3'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Total assessment corrections with free <br /> download access system</span>
                             </li>                          
                             <li className='flex gap-2 items-center py-3'>
-                                <img src="image/Combined shape 16073.png" alt="" srcset="" />
+                                <img src={icon} alt="" srcset="" />
                                 <span className='text-[#343D48]'>Ultimate access to all course, exercises <br /> and assessments</span>
                             </li>
                         </ul>

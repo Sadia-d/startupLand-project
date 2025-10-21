@@ -11,13 +11,17 @@ function App() {
   
   return (
     <>
-     <Navbar></Navbar>
+    <div className='lg:px-6'>
+       <Navbar></Navbar>
      <Banner></Banner>
      <Feature></Feature>
-     <Main></Main>
-     <Hero></Hero>
-     <Deal></Deal>
-     <Footer></Footer>
+     <Main></Main>   
+     </div>
+       <Hero></Hero>
+       <div>
+         <Deal></Deal>
+       </div>
+      <Footer></Footer>
     </>
   )
 }

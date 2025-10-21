@@ -1,20 +1,26 @@
 import React from 'react';
 
+import vector from '../assets/image/Vector.png'
+import forma from '../assets/image/Forma 1.png'
+import forma1 from '../assets/image/Forma 1 (1).png'
+import forma2 from '../assets/image/surface1.png'
+import forma3 from '../assets/image/Mask Group.png'
+
 const Hero = () => {
     return (
         <div>
 
-            <section class="bg-[#353448] mt-11 text-white h-[700px] p-10">
+            <section class="bg-[#353448] mt-11 text-white lg:h-[700px] p-10">
                 {/* <!-- Tabs --> */}
-                <div class="tabs tabs-bordered mb-3 flex ml-[2%] gap-28 items-center ">
-                    <img className='' src="image/Forma 1.png " alt="" srcset="" />
-                    <img src="image/Vector.png" alt="" srcset="" />
-                    <img src="image/Vector.png" alt="" srcset="" />
-                    <img src="image/Forma 1 (1).png" alt="" srcset="" />
-                    <img src="image/surface1.png" alt="" srcset="" />
+                <div class="tabs tabs-bordered mb-3 flex  ml-[2%] lg:gap-28 gap-10 items-center ">
+                    <img className='' src={forma} alt="" srcset="" />
+                    <img src={vector} alt="" srcset="" />
+                    <img src={vector} alt="" srcset="" />
+                    <img src={forma1} alt="" srcset="" />
+                    <img src={forma2} alt="" srcset="" />
                 </div>
-                <p className='border-b py-2 w-[800px] ml-[1%]'></p>
-                <div class=" mt-4 flex  gap-2 items-center  ">
+                <p className='border-b py-2 lg:w-[800px] ml-[1%]'></p>
+                <div class=" mt-4 flex lg:flex hidden gap-2 items-center  ">
                     <a class="tab tab-active text-yellow-400">Budget Overview</a>
                     <a class="tab text-white">Create & adjust</a>
                     <a class="tab text-white">View Reports</a>
@@ -23,9 +29,9 @@ const Hero = () => {
                 </div>
 
                 {/* <!-- Main Content --> */}
-                <div class="flex flex-col lg:flex-row items-center justify-between  mt-24  ml-[2%]">
+                <div class="flex flex-col lg:flex-row items-center justify-between  lg:mt-24 mt-6  ml-[2%]">
                     {/* <!-- Left Text --> */}
-                    <div class="w-[500px]">
+                    <div class="lg:w-[500px]">
                         <h1 class="text-4xl font-bold leading-snug">
                             Introduce quality feature
                             that boost your website 
@@ -40,7 +46,7 @@ const Hero = () => {
                     </div>
 
                     {/* <!-- Right Image (dashboard preview) --> */}
-                    <img className='h-[480px] w-[700px] ml-[8%] flex justify-end' src="image/Mask Group.png" alt="dashboard preview" class="rounded-lg shadow-lg" />
+                    <img className='lg:w-[500px] lg:h-[466px] mt-2 flex justify-end' src={forma3} alt="dashboard preview" class="rounded-lg shadow-lg" />
                 </div>
             </section>
 

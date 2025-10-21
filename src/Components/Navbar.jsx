@@ -1,5 +1,5 @@
 import React from 'react';
-
+import icon1 from '../assets/icon/S 1.png';
 const Navbar = () => {
     return (
         <div>
@@ -20,7 +20,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='flex'>
-                        <img src="/icon/S 1.png" alt="" srcset="" />
+                        <img src={icon1} alt="" srcset="" />
                          <a className="btn btn-ghost text-xl text-[#0F2137]">StartupLand</a>
                     </div>
                    
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </ul>
                   <img className='h-4' src="/icon/search.png" alt="" srcset="" />
                 </div>
-                <div className="navbar-end gap-6">
+                <div className="navbar-end hidden lg:flex gap-6">
                     <div className='flex  gap-1.5 items-center '>
                         <img className='h-4' src="/icon/lock.png" alt="" srcset="" />
                         <p><a href="">Login</a></p>

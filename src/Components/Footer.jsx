@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/icon/S 1.png'
 
 const Footer = () => {
     return (
@@ -19,12 +20,12 @@ const Footer = () => {
                     <button className="btn bg-[#FFC059] border-none join-item">Subscribe</button>
                 </div>
                 <nav className='mt-14'>
-                    <div className="grid grid-flow-col items-center  gap-36">
-                       <div className='flex items-center'>
-                        <img src="image/logo.png" alt="" srcset="" />
+                    <div className="grid lg:grid-flow-col   items-center  lg:gap-36">
+                       <div className='flex lg:flex-row gap-2 flex-col items-center'>
+                        <img src={logo} alt="" srcset="" />
                        <p>Copyright by 2019 YourName, Inc</p>
                        </div>
-                       <div className='flex gap-4'>
+                       <div className='flex mt-2 gap-4'>
                         <p>Home  </p>
                         <p> Adversite </p>
                         <p> Supports  </p>
