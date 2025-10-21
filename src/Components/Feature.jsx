@@ -1,0 +1,38 @@
+import React from 'react';
+
+const Feature = () => {
+    return (
+        <div>
+
+            <div className="hero bg-base-200 min-h-screen">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img 
+                        src="/image/img.png"
+                        className=" h-[530px] w-[600px] rounded-lg shadow-2xl"
+                    />
+                <div className='text-[#0F2137] w-[500px] -mt-14'>
+                      
+                         <h1 className="text-4xl font-bold">Meet our premium features that will make you wow<img src="/icon/emoji.png" alt="" srcset="" /></h1>
+                      
+                     
+                        <p className="py-6">
+                          Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.
+                        </p>
+                        <h5>Organize your project content</h5>
+                        <p className='py-6'>Get your website ads tests delivered at let collect sample from the victory of the managments that supplies best design system which guidelines ever with multiple features.</p>
+                        <div className='bg-[#F6F8FB] shadow-2xl'>
+                            <p>Collaborate your multiple team support easily</p>
+                        </div>
+                        <div className='pt-6'>
+                            <p>Build your team's knowledge base system</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    );
+};
+
+export default Feature;
