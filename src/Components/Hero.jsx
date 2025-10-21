@@ -7,11 +7,11 @@ const Hero = () => {
             <section class="bg-[#353448] mt-11 text-white h-[700px] p-10">
                 {/* <!-- Tabs --> */}
                 <div class="tabs tabs-bordered mb-3 flex ml-[2%] gap-28 items-center ">
-                    <img className='' src="/image/Forma 1.png " alt="" srcset="" />
-                    <img src="/image/Vector.png" alt="" srcset="" />
-                    <img src="/image/Vector.png" alt="" srcset="" />
-                    <img src="/image/Forma 1 (1).png" alt="" srcset="" />
-                    <img src="/image/surface1.png" alt="" srcset="" />
+                    <img className='' src="image/Forma 1.png " alt="" srcset="" />
+                    <img src="image/Vector.png" alt="" srcset="" />
+                    <img src="image/Vector.png" alt="" srcset="" />
+                    <img src="image/Forma 1 (1).png" alt="" srcset="" />
+                    <img src="image/surface1.png" alt="" srcset="" />
                 </div>
                 <p className='border-b py-2 w-[800px] ml-[1%]'></p>
                 <div class=" mt-4 flex  gap-2 items-center  ">
@@ -40,7 +40,7 @@ const Hero = () => {
                     </div>
 
                     {/* <!-- Right Image (dashboard preview) --> */}
-                    <img className='h-[480px] w-[700px] ml-[8%] flex justify-end' src="/image/Mask Group.png" alt="dashboard preview" class="rounded-lg shadow-lg" />
+                    <img className='h-[480px] w-[700px] ml-[8%] flex justify-end' src="image/Mask Group.png" alt="dashboard preview" class="rounded-lg shadow-lg" />
                 </div>
             </section>
 

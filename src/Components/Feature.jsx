@@ -7,7 +7,7 @@ const Feature = () => {
             <div className="hero bg-base-200 ">
                 <div className="hero-content flex-col lg:flex-row">
                     <img 
-                        src="/image/img.png"
+                        src="image/img.png"
                         className=" h-[530px] w-[600px] rounded-lg shadow-2xl"
                     />
                 <div className='text-[#0F2137] w-[500px] -mt-14'>

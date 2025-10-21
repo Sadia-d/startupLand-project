@@ -21,7 +21,7 @@ const Footer = () => {
                 <nav className='mt-14'>
                     <div className="grid grid-flow-col items-center  gap-36">
                        <div className='flex items-center'>
-                        <img src="/image/logo.png" alt="" srcset="" />
+                        <img src="image/logo.png" alt="" srcset="" />
                        <p>Copyright by 2019 YourName, Inc</p>
                        </div>
                        <div className='flex gap-4'>

@@ -7,7 +7,7 @@ const Banner = () => {
             <div className="hero bg-[#FFFCF7] ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
-                        src='/icon/illustration.png'
+                        src='icon/illustration.png'
                         className="h-[500px] w-[600px] rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-6xl text-[#02073E] font-bold">Ultimate support system for leading agencies</h1>
@@ -31,7 +31,7 @@ const Banner = () => {
                 <div className="card card-side px-4 shadow-sm">
                 <figure>
                     <img className='h-20'
-                        src="/icon/Group 83.png"
+                        src="icon/Group 83.png"
                         alt="Movie" />
                 </figure>
                 <div className="card-body">
@@ -43,7 +43,7 @@ const Banner = () => {
                 <div className="card card-side px-4 bg-[#F6F8FB] shadow-sm">
                 <figure>
                     <img className='h-20'
-                        src="/icon/Group 83.png"
+                        src="icon/Group 83.png"
                         alt="Movie" />
                 </figure>
                 <div className="card-body">
