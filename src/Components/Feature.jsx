@@ -2,9 +2,9 @@ import React from 'react';
 
 const Feature = () => {
     return (
-        <div>
+        <div className='mt-14'>
 
-            <div className="hero bg-base-200 min-h-screen">
+            <div className="hero bg-base-200 ">
                 <div className="hero-content flex-col lg:flex-row">
                     <img 
                         src="/image/img.png"

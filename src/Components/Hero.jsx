@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div>
 
-            <section class="bg-[#353448] text-white h-[900px] p-10">
+            <section class="bg-[#353448] mt-11 text-white h-[700px] p-10">
                 {/* <!-- Tabs --> */}
                 <div class="tabs tabs-bordered mb-3 flex ml-[2%] gap-28 items-center ">
                     <img className='' src="/image/Forma 1.png " alt="" srcset="" />
@@ -23,12 +23,12 @@ const Hero = () => {
                 </div>
 
                 {/* <!-- Main Content --> */}
-                <div class="flex flex-col lg:flex-row items-center justify-between gap-10 mt-24 ml-[2%]">
+                <div class="flex flex-col lg:flex-row items-center justify-between  mt-24  ml-[2%]">
                     {/* <!-- Left Text --> */}
                     <div class="w-[500px]">
                         <h1 class="text-4xl font-bold leading-snug">
                             Introduce quality feature
-                            that boost your website
+                            that boost your website 
                             rank & performance
                         </h1>
                         <p class="py-6 text-gray-400">
@@ -40,7 +40,7 @@ const Hero = () => {
                     </div>
 
                     {/* <!-- Right Image (dashboard preview) --> */}
-                    <img className='h-[580px]  w-[650px]' src="/image/Mask Group.png" alt="dashboard preview" class="rounded-lg shadow-lg" />
+                    <img className='h-[480px] w-[700px] ml-[8%] flex justify-end' src="/image/Mask Group.png" alt="dashboard preview" class="rounded-lg shadow-lg" />
                 </div>
             </section>
 

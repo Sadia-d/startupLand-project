@@ -2,9 +2,9 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='mt-16'>
 
-            <div className="hero bg-[#FFFCF7] min-h-screen">
+            <div className="hero bg-[#FFFCF7] ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         src='/icon/illustration.png'
@@ -26,9 +26,9 @@ const Banner = () => {
 
             {/* card section */}
 
-            <div className='flex justify-center items-center gap-6'>
+            <div className='flex justify-center items-center gap-6 mt-8'>
 
-                <div className="card card-side bg-base-200 shadow-sm">
+                <div className="card card-side px-4 shadow-sm">
                 <figure>
                     <img className='h-20'
                         src="/icon/Group 83.png"
@@ -40,7 +40,7 @@ const Banner = () => {
                 </div>
             </div>
 
-                <div className="card card-side bg-[#F6F8FB] shadow-sm">
+                <div className="card card-side px-4 bg-[#F6F8FB] shadow-sm">
                 <figure>
                     <img className='h-20'
                         src="/icon/Group 83.png"

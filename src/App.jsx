@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './Components/Banner'
+import Deal from './Components/Deal'
 import Feature from './Components/Feature'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
@@ -15,6 +16,7 @@ function App() {
      <Feature></Feature>
      <Main></Main>
      <Hero></Hero>
+     <Deal></Deal>
      <Footer></Footer>
     </>
   )
