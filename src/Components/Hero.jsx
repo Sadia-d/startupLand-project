@@ -10,7 +10,8 @@ const Hero = () => {
     return (
         <div>
 
-            <section class="bg-[#353448] mt-11 text-white lg:h-[700px] p-10">
+            <section class="bg-[#353448] mt-11 text-white 
+            lg:p-10 py-3 px-3">
                 {/* <!-- Tabs --> */}
                 <div class="tabs tabs-bordered mb-3 flex  ml-[2%] lg:gap-28 gap-10 items-center ">
                     <img className='' src={forma} alt="" srcset="" />
@@ -40,13 +41,13 @@ const Hero = () => {
                         <p class="py-6 text-gray-400">
                             Build an incredible workplace and grow your business with powerful web solutions.
                         </p>
-                        <button class="btn bg-yellow-500 border-none text-white hover:bg-yellow-400">
+                        <button class="btn bg-yellow-500 border-none mb-2 text-white hover:bg-yellow-400">
                             More Details
                         </button>
                     </div>
 
                     {/* <!-- Right Image (dashboard preview) --> */}
-                    <img className='lg:w-[500px] lg:h-[466px] mt-2 flex justify-end' src={forma3} alt="dashboard preview" class="rounded-lg shadow-lg" />
+                    <img className='lg:h-[400px] lg:w-[400px]' src={forma3} alt="dashboard preview" class="rounded-lg " />
                 </div>
             </section>
 

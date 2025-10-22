@@ -14,7 +14,7 @@ const Feature = () => {
                     />
                 <div className='text-[#0F2137] lg:w-[500px] lg:-mt-14'>
                       
-                         <h1 className="text-4xl font-bold">Meet our premium features that will make you wow<img src={emoji} alt="" srcset="" /></h1>
+                         <h1 className="text-4xl font-bold">Meet our premium features that will make you wow</h1>
                       
                      
                         <p className="py-6">

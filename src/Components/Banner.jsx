@@ -16,7 +16,7 @@ const Banner = () => {
                         src={img}
                         className="lg:h-[450px] lg:w-[580px] rounded-lg " />
                     <div>
-                        <h1 className="text-6xl text-[#02073E] font-bold">Ultimate support system for leading agencies</h1>
+                        <h1 className="lg:text-6xl text-3xl text-[#02073E] font-bold">Ultimate support system for leading agencies</h1>
                         <p className="py-6">
                             Get your tests delivered at let home collect sample from the victory of the managments that supplies best
                             design system guidelines ever.

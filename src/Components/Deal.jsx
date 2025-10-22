@@ -15,7 +15,7 @@ const Deal = () => {
                 </div>
             </div>
 
-            <div className='flex lg:flex-row flex-col px-3 justify-center mt-16'>
+            <div className='flex lg:flex-row flex-col px-3 justify-center lg:mt-16'>
 
                
                 <div className="card w-96 mt-5  bg-base-100 shadow-sm ">
